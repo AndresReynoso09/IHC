@@ -1,3 +1,3 @@
 # IHC
 
-este es una pagina web
+https://andresreynoso09.github.io/IHC/
