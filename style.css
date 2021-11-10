@@ -50,7 +50,7 @@ body nav li:last-child {
 .one .logo {
   width: 250px;
   height: 50px;
-  background: url(/images/logo.png);
+  background: url("./images/logo.png");
   background-position: center center;
   position: absolute;
   background-size: cover;
@@ -112,7 +112,7 @@ body nav li:last-child {
 .one .image {
   width: 50%;
   height: 100%;
-  background-image: url(images/phone_holding.png);
+  background-image: url("./images/phone_holding.png");
   background-position: center center;
   backface-visibility: hidden;
   position: absolute;
@@ -199,7 +199,7 @@ body nav li:last-child {
 .three .client-picture {
   width: 179px;
   height: 179px;
-  background: url(/images/selfie.png);
+  background: url("./images/selfie.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -269,7 +269,7 @@ body nav li:last-child {
 .four .apple {
   width: 125px;
   height: 300px;
-  background: url(/images/applestore.png);
+  background: url("./images/applestore.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -280,7 +280,7 @@ body nav li:last-child {
 .four .google {
   width: 125px;
   height: 300px;
-  background: url(/images/googleplay.png);
+  background: url("./images/googleplay.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -291,7 +291,7 @@ body nav li:last-child {
 .four .phone-screen {
   width: 284px;
   height: 420px;
-  background: url(/images/phone_screen.png);
+  background: url("./images/phone_screen.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -309,7 +309,7 @@ body nav li:last-child {
 .four .phone-border {
   width: 335px;
   height: 360px;
-  background: url(/images/phone.png);
+  background: url("./images/phone.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -362,7 +362,7 @@ body nav li:last-child {
 .five .email .letter {
   width: 50px;
   height: 50px;
-  background-image: url(/images/letter.png);
+  background-image: url("./images/letter.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -396,7 +396,7 @@ body nav li:last-child {
 .five .phone .cellphone {
   width: 50px;
   height: 50px;
-  background-image: url(/images/phone_icon.png);
+  background-image: url(".images/phone_icon.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -430,7 +430,7 @@ body nav li:last-child {
 .five .address .point {
   width: 50px;
   height: 50px;
-  background-image: url(/images/placeholder.png);
+  background-image: url("./images/placeholder.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
