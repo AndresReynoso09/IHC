@@ -1,0 +1,456 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14;
+}
+a {
+  text-decoration: none;
+}
+section {
+  height: 100vh;
+  display: flex;
+}
+section:first-child {
+  height: 150vh;
+  display: flex;
+}
+
+body nav {
+  list-style: none;
+  display: flex;
+  font-size: medium;
+  font-family: Josefin Sans;
+}
+
+body nav li {
+  margin: 15px;
+  width: 30%;
+  padding-top: 5px;
+}
+
+body nav li:first-child {
+  padding-left: 60px;
+}
+
+body nav li:last-child {
+  margin-right: 0;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+.one {
+  position: relative;
+  background-color: #5ba6a2;
+  padding-left: 2vh;
+}
+.one .logo {
+  width: 250px;
+  height: 50px;
+  background: url(/images/logo.png);
+  background-position: center center;
+  position: absolute;
+  background-size: cover;
+  opacity: 1;
+  top: 10vh;
+}
+.one .bar {
+  width: 150vh;
+  height: 57px;
+  background: rgba(242, 245, 247, 1);
+  position: absolute;
+  right: 0px;
+  top: 10vh;
+  z-index: 2;
+}
+.one .welcome {
+  width: 522px;
+  color: rgba(242, 245, 247, 1);
+  position: absolute;
+  top: 300px;
+  left: 96px;
+  font-family: Josefin Sans;
+  font-weight: Bold;
+  font-size: 66px;
+  opacity: 1;
+  text-align: left;
+}
+.one .welcoming {
+  width: 543px;
+  color: rgba(0, 0, 0, 0.7799999713897705);
+  position: absolute;
+  top: 450px;
+  left: 96px;
+  font-family: Ubuntu;
+  font-weight: Light;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.one .register {
+  width: 175px;
+  height: 50px;
+  color: rgba(0, 0, 0, 0.7799999713897705);
+  position: absolute;
+  bottom: 400px;
+  left: 96px;
+  font-family: Ubuntu;
+  font-weight: Light;
+  opacity: 1;
+  background-color: rgb(66, 75, 90);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 1%;
+  font-size: large;
+  color: rgba(242, 245, 247, 1);
+}
+.one .image {
+  width: 50%;
+  height: 100%;
+  background-image: url(images/phone_holding.png);
+  background-position: center center;
+  backface-visibility: hidden;
+  position: absolute;
+  background-size: cover;
+  right: 0;
+  z-index: 1;
+}
+.two {
+  position: relative;
+  background-color: white;
+}
+.two h1 {
+  width: 496px;
+  color: rgba(66, 75, 90, 1);
+  position: absolute;
+  top: 99px;
+  left: 472px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+  z-index: 2;
+}
+.two .box {
+  width: 300px;
+  height: 350px;
+  position: relative;
+  top: 200px;
+  left: 230px;
+  background-color: rgb(242, 245, 247);
+  margin: 20px;
+  z-index: 2;
+}
+.two .box h2 {
+  color: rgba(20, 37, 36, 1);
+  position: relative;
+  top: 84px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.two .box span {
+  color: rgb(161, 174, 183);
+  position: absolute;
+  top: 200px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+  padding: 10px;
+}
+.three {
+  position: relative;
+  background-color: #5ba6a2;
+}
+.three h1 {
+  width: 826px;
+  color: rgba(20, 37, 36, 1);
+  position: absolute;
+  top: 84px;
+  left: 319px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+}
+.three h2 {
+  width: 556px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 194px;
+  left: 456px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.three .client-picture {
+  width: 179px;
+  height: 179px;
+  background: url(/images/selfie.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 319px;
+  left: 630px;
+  border-top-left-radius: 204px;
+  border-top-right-radius: 204px;
+  border-bottom-left-radius: 204px;
+  border-bottom-right-radius: 204px;
+  overflow: hidden;
+}
+.three .client-title {
+  width: 46px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 545px;
+  left: 700px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+.three .client {
+  width: 141px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  bottom: 156px;
+  left: 658px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+
+.four {
+  position: relative;
+  background-color: white;
+}
+.four h1 {
+  width: 270px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 63px;
+  left: 585px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+}
+.four h2 {
+  width: 557px;
+  color: rgba(79, 92, 104, 1);
+  position: absolute;
+  top: 135px;
+  left: 442px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.four .apple {
+  width: 125px;
+  height: 300px;
+  background: url(/images/applestore.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: absolute;
+  top: 140px;
+  left: 559px;
+}
+.four .google {
+  width: 125px;
+  height: 300px;
+  background: url(/images/googleplay.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: absolute;
+  top: 140px;
+  left: 739px;
+}
+.four .phone-screen {
+  width: 284px;
+  height: 420px;
+  background: url(/images/phone_screen.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 355px;
+  left: 571px;
+  border-top-left-radius: 36px;
+  border-top-right-radius: 36px;
+  border-bottom-left-radius: 36px;
+  border-bottom-right-radius: 36px;
+  overflow: hidden;
+  z-index: 2;
+}
+.four .phone-border {
+  width: 335px;
+  height: 360px;
+  background: url(/images/phone.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 336px;
+  left: 552px;
+  overflow: hidden;
+  z-index: 1;
+}
+.five {
+  position: relative;
+  background-color: #5ba6a2;
+  z-index: 3;
+}
+.five h1 {
+  width: 414px;
+  color: rgba(39, 46, 61, 1);
+  position: absolute;
+  top: 140px;
+  left: 513px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+}
+.five span {
+  width: 300px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 235px;
+  left: 567px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.five .email {
+  width: 150px;
+  height: 250px;
+  position: absolute;
+  bottom: 50px;
+  left: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.five .email .letter {
+  width: 50px;
+  height: 50px;
+  background-image: url(/images/letter.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: absolute;
+  left: 50px;
+  top: 0px;
+}
+.five .email .contact {
+  width: 60px;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  left: 45px;
+  size: small;
+}
+.five .email .content {
+  width: 60px;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 14%;
+  size: small;
+}
+.five .phone {
+  width: 150px;
+  height: 250px;
+  position: absolute;
+  bottom: 50px;
+  left: 650px;
+}
+.five .phone .cellphone {
+  width: 50px;
+  height: 50px;
+  background-image: url(/images/phone_icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: absolute;
+  left: 50px;
+  top: 0px;
+}
+.five .phone .contact {
+  width: 60px;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  left: 45px;
+  size: small;
+}
+.five .phone .content {
+  width: 100px;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 16%;
+  size: small;
+}
+.five .address {
+  width: 150px;
+  height: 250px;
+  position: absolute;
+  bottom: 50px;
+  left: 850px;
+}
+.five .address .point {
+  width: 50px;
+  height: 50px;
+  background-image: url(/images/placeholder.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: absolute;
+  left: 50px;
+  top: 0px;
+}
+.five .address .contact {
+  width: 60px;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  left: 45px;
+  size: small;
+}
+.five .address .content {
+  width: 120px;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 10%;
+  size: small;
+}
