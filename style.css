@@ -95,7 +95,7 @@ body nav li:last-child {
   height: 50px;
   color: rgba(0, 0, 0, 0.7799999713897705);
   position: absolute;
-  bottom: 400px;
+  top: 650px;
   left: 96px;
   font-family: Ubuntu;
   font-weight: Light;
@@ -396,7 +396,7 @@ body nav li:last-child {
 .five .phone .cellphone {
   width: 50px;
   height: 50px;
-  background-image: url(".images/phone_icon.png");
+  background-image: url("./images/phone_icon.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
